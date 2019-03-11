@@ -30,6 +30,8 @@
     
     
     
+    
+    
     self.longitudeLabel = [[UILabel alloc]initWithFrame:CGRectMake(25, 280, self.view.bounds.size.width-50, 30)];
     [self.view addSubview:self.longitudeLabel];
     
