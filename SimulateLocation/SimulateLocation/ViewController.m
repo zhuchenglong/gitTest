@@ -22,7 +22,7 @@
     
     NSLog(@"222");
     NSLog(@"333");
-    
+    NSLog(@"444");
     UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(30, 100, self.view.bounds.size.width-60, 150)];
     imageView.image = [UIImage imageNamed:@"tupian"];
     imageView.contentMode = UIViewContentModeScaleAspectFit;
