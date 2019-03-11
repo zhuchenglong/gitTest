@@ -20,6 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSLog(@"222");
+    
     
     UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(30, 100, self.view.bounds.size.width-60, 150)];
     imageView.image = [UIImage imageNamed:@"tupian"];
