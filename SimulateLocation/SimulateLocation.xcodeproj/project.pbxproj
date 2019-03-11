@@ -20,6 +20,7 @@
 		5E44933121CBD78E004E0224 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E44933021CBD78E004E0224 /* LocationManager.m */; };
 		5E44933421CBD812004E0224 /* NSObject+AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E44933321CBD812004E0224 /* NSObject+AlertView.m */; };
 		5E44933621CBDA46004E0224 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E44933521CBDA46004E0224 /* UIKit.framework */; };
+		5E894813223647F300B97626 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E894812223647F300B97626 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		5E44933221CBD812004E0224 /* NSObject+AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AlertView.h"; sourceTree = "<group>"; };
 		5E44933321CBD812004E0224 /* NSObject+AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AlertView.m"; sourceTree = "<group>"; };
 		5E44933521CBDA46004E0224 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5E894811223647F300B97626 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		5E894812223647F300B97626 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				5E44930321CB813B004E0224 /* LaunchScreen.storyboard */,
 				5E44930621CB813B004E0224 /* Info.plist */,
 				5E44930721CB813B004E0224 /* main.m */,
+				5E894811223647F300B97626 /* TestViewController.h */,
+				5E894812223647F300B97626 /* TestViewController.m */,
 			);
 			path = SimulateLocation;
 			sourceTree = "<group>";
@@ -292,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E894813223647F300B97626 /* TestViewController.m in Sources */,
 				5E44933121CBD78E004E0224 /* LocationManager.m in Sources */,
 				5E4492FD21CB8135004E0224 /* ViewController.m in Sources */,
 				5E44930821CB813B004E0224 /* main.m in Sources */,
