@@ -20,16 +20,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"00000");
-
+    NSLog(@"gggggg");
+    NSLog(@"xxxxxx");
     UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(30, 100, self.view.bounds.size.width-60, 150)];
     imageView.image = [UIImage imageNamed:@"tupian"];
     imageView.contentMode = UIViewContentModeScaleAspectFit;
     [self.view addSubview:imageView];
-    
-    
-    
-    
     
     self.longitudeLabel = [[UILabel alloc]initWithFrame:CGRectMake(25, 280, self.view.bounds.size.width-50, 30)];
     [self.view addSubview:self.longitudeLabel];
